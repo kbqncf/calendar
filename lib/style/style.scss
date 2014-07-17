@@ -1,0 +1,62 @@
+.calendar {
+  float: left;
+  width: 300px;
+  overflow: hidden;
+  .panel {
+    float: left;
+    width: 300px;
+    padding-bottom: 10px;
+    .btn {
+      float: left;
+      display: block;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .btn:hover{
+      color: #0dffc2;
+      text-shadow: 0 0 15px #00bdff;
+    }
+    .info {
+      float: left;
+      width: 260px;
+      text-align: center;
+    }
+    .next-btn {
+      float: right;
+    }
+  }
+  table {
+    float: left;
+    font-family: fantasy;
+    thead {
+      th {
+        padding-bottom: 10px;
+      }
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background-color: #EAF5FF;
+      -webkit-transition: background-color .4s;
+      -moz-transition: background-color .4s;
+      -ms-transition: background-color .4s;
+      -o-transition: background-color .4s;
+      transition: background-color .4s;
+    }
+    td:hover{
+      background-color: #07ffd8;
+      color: white;
+    }
+  }
+  .skin1{
+
+  }
+}
