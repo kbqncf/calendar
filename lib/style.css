@@ -1,0 +1,25 @@
+@charset "UTF-8";
+td{
+    padding: 20px;
+}
+.current{
+    background-color: blue;
+}
+.passed{
+    background-color: #e6fde4;
+}
+.panel{
+    float: left;
+    text-align: center;
+}
+.panel{width: 300px;overflow: hidden;}
+.panel .btn{display:inline-block;padding: 10px;cursor: pointer;}
+.panel .prev-btn{
+    float: left;
+}
+.panel .next-btn{
+    float: right;
+}
+.panel .info{
+    float: left;
+}
